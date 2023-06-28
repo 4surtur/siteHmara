@@ -329,31 +329,32 @@ rotate: -90deg;
 
 @media (max-width: 1024px) {
     body {
-        width: 97%;
+        width: 100%;
         max-width: 2000px;
         font-size: 16px;
         margin: auto;
     }
       .header {
-        padding: 15px 10px 10px 10px;
-        width: 99%;
+        width: 100%;
       }
       .header-title {
         display: flex;
         align-items: center;
         gap: 10px;
-        padding-left: 3%;
-        font-size: 16px;
+        font-size: 12px;
         width: 60%;
       }
       .header-call {
         width: 25%;
         display: flex;
         justify-content: flex-end;
-        padding-right: 8%;
+        padding-right: 11%;
+      }
+      .header-call_btn {
+        padding: 0% 12%;
       }
       .main-page {
-        height: 930px;
+        height: 715px;
       }
       .nav {
         display: none;
@@ -362,25 +363,46 @@ rotate: -90deg;
         gap: 3%;
       }
       .impotant {
-        height: 500px;
+        height: 370px;
       }
       .advantages-box {
     width: 84%;  
     }
+    .advantages-box_title {
+        font-size: 22px;
+        }
     ul {
-        font-size: 18px;
+        font-size: 16px;
     }
     li {
-        font-size: 16px;
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 20px;
+        text-align: center;
     }
 h2 {
     text-align: center;
-    font-size: 19px;
+    font-size: 16px;
     padding: 0% 18%;
 }
+h3 {
+    font-size: 16px;
+}
+.main-page-transit {
+    padding-top: 35px;
+    font-size: 40px;
+  }
 .services {
     margin-top: 20px;
     width: 100%;
+  }
+  .service-block{
+    padding: 15px;
+  }
+  .service-block_title {
+    font-size: 20px;
+    justify-content: flex-start;
   }
   .exampless{
     width: 90%;
